@@ -1,0 +1,132 @@
+
+.app{
+ padding: 10px;
+ border: 0px;
+}
+.container{
+    padding: 10px 10px 10px 10px;
+}
+.avatar{
+    margin: auto;
+}
+.avatarRed{
+    margin: auto;
+    background-color: red !important;
+}
+.avatarBlue{
+    margin: auto;
+    background-color: blue !important;
+}
+.avatarGreen{
+    margin: auto;
+    background-color: green !important;
+}
+.avatarBlack{
+    margin: auto;
+    background-color: black !important;
+}
+.paper{
+    width: 300px;
+    background-color: lightgray !important;
+    padding: 10px;
+}
+.typographyCenter{
+    text-align: center;
+}
+.textdecorationNone{
+    text-decoration: none !important;
+}
+.bottomNavigation{
+    position: fixed;
+    bottom: 0px;
+    background-color: antiquewhite !important;
+    width: 100%;
+}
+.paperMenu{
+    width: 300px;
+    background-color: whitesmoke !important;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 530px;
+    overflow: auto;
+}
+.menuHeader{
+    background-color: aliceblue;
+    padding: 10px !important;
+}
+.card{
+    margin-bottom: 5px;
+}
+.cardContent{
+    padding: 10px 16px !important;
+}
+.cardActions{
+    padding: 5px !important;
+    float: right;
+    justify-content: space-evenly
+}
+.appBar{
+    position: fixed !important;
+    top: 0px !important;
+}
+.totalPrice{
+    text-align: center;
+    background-color: navajowhite;
+    padding: 5px;
+}
+.paperMenuCategory{
+    padding: 20px 10px;
+    /* width: 300px; */
+}
+.bottomAppBar {
+    top: auto !important;
+    bottom: 0px !important;
+}
+.bottomToolbar {
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomFabButton{
+    position: absolute !important;
+    z-index: 1;
+    top: -30px !important;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto !important;
+}
+.expandedMenu{
+    margin-top: 60px;
+    padding: 0 5px;
+    margin-bottom: 100px;
+}
+.expandedMenuSummary{
+    min-height: 30px;
+    background-color: navajowhite !important;
+}
+.expandedMenuDetails{
+    padding: 5px !important;
+}
+.drawerButton{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+}
+.drawerCardActionsButton{
+    height: 30px !important;
+    width: 30px !important;
+    min-height: 30px !important;
+    /* background-color: red !important; */
+}
+.drawerRemove{
+    height: 30px !important;
+    width: 30px !important;
+    /* background-color: darkblue !important; */
+}
+.drawerQty{
+    float: left;
+}
+.drawerTotalPrice{
+    float: right;
+}
